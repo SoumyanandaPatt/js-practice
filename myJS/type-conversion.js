@@ -38,7 +38,49 @@
 // "name"=> true
 
 
-let anyNum = 33;
+// let anyNum = 33;
 
-let stringNumber = String(anyNum);
-console.log(typeof stringNumber);
+// let stringNumber = String(anyNum);
+// console.log(typeof stringNumber);
+
+
+// ********************** Operations ********************
+
+let value = 3;
+
+let negativeValue = -value;
+
+// console.log(negativeValue);
+
+let str1 = "hello"
+let str2 = " Somu"
+
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log(-true);
+
+
+// Pre-fix & Post-fix
+
+let x = 3;
+const y = x++;
+
+// console.log(`x: ${x}, y: ${y}`);
+
+
+let a = 3;
+const b = ++a;
+
+// console.log(`a: ${a}, b: ${b}`);
+
+
+
+
+
+// Comparison Operation //
+
+console.log("2" > 1);
+console.log("02" > 1);
+
+console.log(typeof(Number("02")));
